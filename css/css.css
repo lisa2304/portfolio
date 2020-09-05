@@ -301,4 +301,14 @@ a {
   a:hover {
     color: black; }
 
+/* line 347, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+video {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 800px; }
+
 /*# sourceMappingURL=css.css.map */
