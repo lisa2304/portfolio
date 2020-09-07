@@ -23,7 +23,7 @@ body {
 
 /* line 27, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 nav {
-  margin-bottom: 0; }
+  margin-bottom: 30px !important; }
 
 /* line 32, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .intro {
@@ -61,6 +61,13 @@ img {
   margin-bottom: 40px; }
 
 /* line 77, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+#typo {
+  max-width: 750px;
+  margin-top: -20px;
+  height: auto;
+  width: 100%; }
+
+/* line 84, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 #kumu {
   max-width: 1000px;
   width: 100%;
@@ -68,14 +75,14 @@ img {
   height: auto;
   padding-right: 70px; }
 
-/* line 85, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 92, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 #gravity {
   max-width: 1800px;
   height: auto;
   width: 100%;
   max-width: 1000px; }
 
-/* line 92, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 99, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .tentakel {
   position: absolute;
   top: -10px;
@@ -85,7 +92,7 @@ img {
   height: auto;
   right: -20px; }
 
-/* line 102, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 109, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .blad {
   position: absolute;
   top: 60px;
@@ -94,7 +101,7 @@ img {
   max-height: 35vh;
   height: auto; }
 
-/* line 111, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 118, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .terug {
   height: 80px;
   position: fixed;
@@ -102,25 +109,25 @@ img {
   bottom: 15px;
   border-radius: 50%;
   overflow: visible; }
-  /* line 120, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+  /* line 127, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
   .terug:hover {
     transform: rotate(-30deg);
     transition: all 0.3s; }
 
-/* line 127, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 134, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .verder {
   height: 80px;
   position: fixed;
   right: 15px;
   bottom: 15px;
   border-radius: 50%; }
-  /* line 134, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+  /* line 141, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
   .verder:hover {
     transform: rotate(30deg);
     transition: all 0.3s;
     overflow: hidden; }
 
-/* line 142, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 149, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .tooltip.links {
   height: 80px;
   bottom: 10px;
@@ -129,7 +136,7 @@ img {
   /* If you want dots under the hoverable text */ }
 
 /* Tooltip text */
-/* line 152, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 159, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .tooltip.links .tooltiptext.links {
   visibility: hidden;
   width: 120px;
@@ -144,11 +151,11 @@ img {
   position: fixed; }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-/* line 168, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 175, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .tooltip.links:hover .tooltiptext.links {
   visibility: visible; }
 
-/* line 173, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 180, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .tooltip.rechts {
   position: fixed;
   height: 80px;
@@ -158,7 +165,7 @@ img {
   /* If you want dots under the hoverable text */ }
 
 /* Tooltip text */
-/* line 183, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 190, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .tooltip.rechts .tooltiptext.rechts {
   visibility: hidden;
   width: 120px;
@@ -174,18 +181,18 @@ img {
   right: 105px; }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-/* line 202, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 209, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .tooltip.rechts:hover .tooltiptext.rechts {
   visibility: visible; }
 
-/* line 211, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 218, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 a.lightbox img {
   max-height: 150px !important;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   margin: 20px 20px 20px 20px; }
 
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
-/* line 220, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 227, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .lightbox-target {
   z-index: 100000;
   position: fixed;
@@ -202,7 +209,7 @@ a.lightbox img {
   overflow: hidden; }
 
 /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
-/* line 238, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 245, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .lightbox-target img {
   margin: auto;
   position: absolute;
@@ -220,7 +227,7 @@ a.lightbox img {
   transition: .5s ease-in-out; }
 
 /* Styles the close link, adds the slide down transition */
-/* line 258, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 265, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 a.lightbox-close {
   display: block;
   width: 50px;
@@ -238,7 +245,7 @@ a.lightbox-close {
   transition: .5s ease-in-out; }
 
 /* Provides part of the "X" to eliminate an image from the close link */
-/* line 277, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 284, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 a.lightbox-close:before {
   content: "";
   display: block;
@@ -254,7 +261,7 @@ a.lightbox-close:before {
   transform: rotate(45deg); }
 
 /* Provides part of the "X" to eliminate an image from the close link */
-/* line 294, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 301, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 a.lightbox-close:after {
   content: "";
   display: block;
@@ -270,38 +277,38 @@ a.lightbox-close:after {
   transform: rotate(-45deg); }
 
 /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
-/* line 311, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 318, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .lightbox-target:target {
   opacity: 1;
   top: 0;
   bottom: 0; }
 
-/* line 317, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 324, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .lightbox-target:target img {
   max-height: 100%;
   max-width: 100%; }
 
-/* line 322, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 329, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .lightbox-target:target a.lightbox-close {
   top: 0px; }
 
-/* line 329, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 336, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 .breadcrumb {
   background: none;
   z-index: 100; }
-  /* line 333, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+  /* line 340, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
   .breadcrumb ol {
     margin-bottom: 0; }
 
-/* line 338, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 345, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 a {
   color: dimgrey;
   text-decoration: underline; }
-  /* line 342, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+  /* line 349, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
   a:hover {
     color: black; }
 
-/* line 347, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+/* line 354, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
 video {
   display: block;
   margin: auto;
@@ -310,5 +317,13 @@ video {
   width: 100% !important;
   height: auto !important;
   max-width: 800px; }
+
+/* line 364, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+.text-muted p {
+  margin-left: 0px; }
+
+/* line 368, /Users/lisavanwesemael/Desktop/git/portfolio/css/css.scss */
+#number {
+  float: right; }
 
 /*# sourceMappingURL=css.css.map */
