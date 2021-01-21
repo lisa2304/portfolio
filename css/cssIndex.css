@@ -1,0 +1,11 @@
+/* line 1, /Users/lisavanwesemael/Desktop/git/portfolio/css/cssIndex.scss */
+img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); }
+
+/* line 7, /Users/lisavanwesemael/Desktop/git/portfolio/css/cssIndex.scss */
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0); }
+
+/*# sourceMappingURL=cssIndex.css.map */
